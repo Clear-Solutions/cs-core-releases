@@ -1,0 +1,36 @@
+name: Deliver verified release catalog
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  delivery:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          persist-credentials: false
+      - run: make check
+      - name: Package exact verified revision
+        env:
+          VERIFIED_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          mkdir -p work/delivery
+          git archive "$VERIFIED_SHA" | gzip > work/delivery/catalog.tar.gz
+          printf '%s\n' "$VERIFIED_SHA" > work/delivery/REVISION
+          cd work/delivery
+          sha256sum catalog.tar.gz REVISION > SHA256SUMS
+          sha256sum --check SHA256SUMS
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        with:
+          name: verified-release-catalog
+          path: work/delivery/
+          retention-days: 30

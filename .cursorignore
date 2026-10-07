@@ -1,0 +1,17 @@
+# Context exclusions; this is not a terminal/MCP security boundary.
+**/.env
+**/.env.*
+!**/.env.example
+**/*.key
+**/*.pem
+**/id_rsa
+**/credentials.json
+**/secrets.json
+.venv/
+work/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+**/target/

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "CONTRIBUTING.md": "57fcb5af7dc21ad918a3decfbae0d9a49a5cfcdff20b2043d452d5b979f28421",
+    "README.md": "fe6aa94b0e25be03f55423f3c5dbb336b9803e7e43654aa97d91d1ab08f3d08b",
+    "SECURITY.md": "34e032c3f793be50cf878c6b3114b8297facfd0b3a337e8e71b8a522f788e2e8",
+    "docs/agents.md": "1a629ad6c7c8026344dd1ec1b2a6a24e9350e34aaa78432411e8a0ad5d2418f0",
+    "docs/ai-review.md": "895eef017e18cb9c8fff4ce61d1614778a9701752efab921e4da03cbaba9a799",
+    "docs/ci-cd.md": "08a667931eb316ae8131651b6f906edf3c81b8b81c5df85626854e258bc09958",
+    "docs/development.md": "1224aae2a1228e27855e09f16d17e112ee7b6423ed2fd72d385109d394d14a04",
+    "docs/git-policy.md": "9460031d4b5e8cf3ebd3f8c0174b98af3954e4c1da1be4c961bc436de5c4323a",
+    "docs/onboarding.md": "a2e78bdf8d1b81b55ffc3f69075d773fd8dedf5c9b5947fd7601a95cb6293f91",
+    "docs/project-bootstrap.md": "578123f8617d3a2f2e6562014935d1c2a4e6ac51ee6e4a08b2bd6c0e52df6574",
+    "docs/project-intake.md": "f8e4c6c49a567174d69dbf875377b1dce13192012e13cb01b6bb79bd6a987c94",
+    "docs/readme-maintenance.md": "8322afa89776baf74cf3b4706360e7586829bc3220330b1700f7925fbcc66214",
+    "docs/repository-naming.md": "51040710ca58f51e662fddc261f78783040c4fd43be1756167824a7393db1af1",
+    "docs/rollout.md": "c2295545ee91ab6875f685cd8bcc9cce22b2db86df62885c08ae9fcefcfe3092",
+    "docs/security.md": "c88b163f611a99655c7506e6281403bd9a40c3c7a5ff3faa462ef0842b34b72b",
+    "docs/showcase-publication.md": "e89bd0e69f029e71a3bd7abdfd4320853a852972ee20efe5c327cf188dc9cd4d",
+    "docs/workspace-bootstrap.md": "56a3d3ad79a8be803d48b8f0c4648b72d84af73953726011a9ae12171cd6bc9c",
+    "policies/main.ruleset.json": "d20231cf2e8f1bd7af73f5ffad72ad13f6d928ba7f3f29ff6fd900f50c27e8e2",
+    "policies/repository-settings.json": "ae38f891bceb3407a52e055144c40e3640fada8fc1e7b95fc17655bdfb118f43",
+    "templates/project-brief.md": "47cb6e84f5df2cbf6e87da2a144e44ecee2abf5d16d6e0e5aafc1a9fd406c268"
+  },
+  "policy_commit": "5af2cab7ef00dad62d3eecdca88f198f1833dda6",
+  "policy_repository": "Clear-Solutions/cs-core-standards"
+}

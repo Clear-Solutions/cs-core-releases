@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "version": "v0.1.3",
+  "source_repository": "elementary1997/easySTT",
+  "source_release": "https://github.com/elementary1997/easySTT/releases/tag/v0.1.3",
+  "source_commit": "0c00206de71e3d9f46f0ca67224aa4c9161be236",
+  "kind": "verified-upstream-release-import",
+  "assets": [
+    {
+      "name": "easySTT-0.1.3-1.x86_64.rpm",
+      "size": 6858986,
+      "sha256": "3534eac9c6a189a7de5e21516ce8d6a4dcbfcb3851544c31286f42962ca85e2b"
+    },
+    {
+      "name": "easySTT_0.1.3_amd64.AppImage",
+      "size": 87742968,
+      "sha256": "9d5d65662757654a1fc5c7dbdad92da7edc6031c961c313772c81ddd0ddeedec"
+    },
+    {
+      "name": "easySTT_0.1.3_amd64.deb",
+      "size": 6858238,
+      "sha256": "6ddf11f20db42aea0ef115f6d8885bbcebdd8da893602b56015c175b3ab63669"
+    },
+    {
+      "name": "easySTT_0.1.3_x64-setup.exe",
+      "size": 4059538,
+      "sha256": "8268bcf83fa72394e9fc1e8f10736b2aa0334e8c547b6bb81e885becd21fa91b"
+    },
+    {
+      "name": "easySTT_0.1.3_x64_en-US.msi",
+      "size": 7168000,
+      "sha256": "b30b75f2c31c918a867bfb63b1435135da55b33e20da313a3b9ad21f8e3e2787"
+    }
+  ]
+}

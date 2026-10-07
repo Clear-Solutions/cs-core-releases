@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "policy_repository": "Clear-Solutions/cs-core-standards",
+  "policy_commit": "5af2cab7ef00dad62d3eecdca88f198f1833dda6",
+  "verification": {
+    "setup": "make setup",
+    "checks": "make check",
+    "security": "make security"
+  },
+  "protection_status": "pending-initial-checks",
+  "delivery": {
+    "workflow": ".github/workflows/delivery.yml",
+    "kind": "release-catalog",
+    "rollback_document": "docs/deployment.md"
+  }
+}

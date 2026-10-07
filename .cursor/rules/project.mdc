@@ -1,0 +1,7 @@
+---
+description: Canonical Clear Solutions repository instructions
+alwaysApply: true
+---
+@AGENTS.md
+
+Read docs/agent-workflow.md when starting a task. Read the relevant local policy in docs/policy/docs/; its exact source revision is pinned in .clear-solutions/project.json. Do not duplicate or weaken those rules here. .cursorignore does not restrict terminal or MCP access: never read secrets without task-specific authorization.
