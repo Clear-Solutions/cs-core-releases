@@ -7,7 +7,7 @@
     "checks": "make check",
     "security": "make security"
   },
-  "protection_status": "pending-initial-checks",
+  "protection_status": "enforced-public-main",
   "delivery": {
     "workflow": ".github/workflows/delivery.yml",
     "kind": "release-catalog",
