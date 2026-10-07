@@ -19,3 +19,7 @@ applications. A bad release is withdrawn and latest is set to the previous verif
 release; never silently overwrite versioned assets. Preserve published provenance.
 Main requires checks/security and an independent PR approval; owners retain bypass
 for explicitly authorized maintenance only.
+
+All products have separate products/<slug>/releases/<version> directories and tags.
+Latest is tracked per product; rollback updates that product's metadata, README
+and showcase link to its previous verified tag, not the global latest marker.

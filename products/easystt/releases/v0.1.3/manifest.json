@@ -31,5 +31,7 @@
       "size": 7168000,
       "sha256": "b30b75f2c31c918a867bfb63b1435135da55b33e20da313a3b9ad21f8e3e2787"
     }
-  ]
+  ],
+  "product": "easystt",
+  "release_tag": "easystt-v0.1.3"
 }
