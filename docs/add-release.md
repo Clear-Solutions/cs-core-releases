@@ -21,3 +21,8 @@
 Не заменять существующие установщики под тем же тегом. Не добавлять командный
 брендинг в независимый продукт без запроса. Межрепозиторная автоматическая
 публикация не настроена: используются проверенные артефакты CI и gh maintainer.
+
+Сценарий агента: [cs-release-publish](https://github.com/Clear-Solutions/cs-core-skills/blob/main/skills/delivery/cs-release-publish/README.md) —
+проверка происхождения и SHA-256, подготовка без публикации или разрешённый выпуск.
+[cs-project-audit](https://github.com/Clear-Solutions/cs-core-skills/blob/main/skills/review/cs-project-audit/README.md)
+поможет отдельно оценить готовность проекта.

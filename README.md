@@ -37,3 +37,8 @@ CD сохраняет каталог проверенного main с точны
 Ветка → PR → одно независимое одобрение → checks/security → squash merge.
 [Агенты](AGENTS.md) · [Публикация и откат](docs/deployment.md) ·
 [Добавление продукта и версии](docs/add-release.md) · [Безопасность](SECURITY.md).
+
+Сценарий агента: [cs-release-publish](https://github.com/Clear-Solutions/cs-core-skills/blob/main/skills/delivery/cs-release-publish/README.md) —
+проверка происхождения и SHA-256, подготовка без публикации или разрешённый выпуск.
+[cs-project-audit](https://github.com/Clear-Solutions/cs-core-skills/blob/main/skills/review/cs-project-audit/README.md)
+поможет отдельно оценить готовность проекта.
