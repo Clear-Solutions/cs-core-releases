@@ -5,7 +5,7 @@
 
 | Продукт | Платформы | Текущий выпуск |
 | --- | --- | --- |
-| [easySTT](products/easystt/README.md) | Windows / Linux x64 | [v0.1.3 — скачать](https://github.com/Clear-Solutions/cs-core-releases/releases/tag/easystt-v0.1.3) |
+| [Агент распознавания речи и голосового ввода](products/easystt/README.md) | Windows / Linux x64 | [v0.1.3 — скачать](https://github.com/Clear-Solutions/cs-core-releases/releases/tag/easystt-v0.1.3) |
 
 ## Структура
 
